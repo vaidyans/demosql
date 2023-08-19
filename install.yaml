@@ -3,4 +3,4 @@
   become: yes
   tasks:
   - name: Ping test
-    win_shell:  date
+    win_shell:  ipconfig
