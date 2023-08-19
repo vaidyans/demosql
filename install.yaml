@@ -1,7 +1,6 @@
 ---
 - hosts: all
   become: yes
-  become_method: runas
   tasks:
   - name: Ping test
     win_shell:  ipconfig
