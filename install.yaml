@@ -1,6 +1,5 @@
 ---
 - hosts: all
-  become: yes
   tasks:
   - name: Ping test
     win_shell:  ipconfig
