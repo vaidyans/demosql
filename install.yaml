@@ -4,7 +4,7 @@
 #  --tasks:
 #  -- - name: Ping test
 #    -- win_shell:  ipconfig
-- hosts: windows
+- hosts: all
   tasks:
   - name: ping
     win_ping:
