@@ -1,6 +1,11 @@
 ---
 - hosts: all
   gather_facts: true
+  --tasks:
+  -- - name: Ping test
+    -- win_shell:  ipconfig
+---
+- hosts: windows
   tasks:
-  - name: Ping test
-    win_shell:  ipconfig
+  - name: ping
+    win_ping:
