@@ -1,5 +1,5 @@
 [target1]
-192.168.1.23
+192.168.1.24
 [target1:vars]
 ansible_user=mydemodc\Administrator
 ansible_password=Database@1234
@@ -8,7 +8,7 @@ ansible_connection=winrm
 ansible_winrm_transport=ntlm
 ansible_winrm_server_cert_validation=ignore
 [target2]
-192.168.1.24
+192.168.1.23
 [target2:vars]
 ansible_user=mydemodc\Administrator
 ansible_password=Database@1234
