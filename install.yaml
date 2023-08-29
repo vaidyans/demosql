@@ -1,5 +1,5 @@
 ---
-- hosts: target1
+- hosts: all
   become: false
   tasks:
   - name: Ping test
